@@ -1,18 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { Component } from 'react'
 import axios from 'axios'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import Home from './components/Home'
+import Login from './components/Login'
 
 
 class App extends Component() {
-  constructor(props) { 
-    super(props)
-    this.state = {
+  state = {
       isLoggedIn: false, 
       user: {}
     }
-  }
+  
 
   componentDidMount() {
     this.loginStatus()
@@ -22,7 +21,7 @@ class App extends Component() {
     axios.get('http://localhost:3001/logged_in', {withCredentials: true})
     .then(resp => {
       if (resp.data.logged_in) {
-        this.handleLogin(response)
+        this.handleLogin(resp)
       } else {
         this.handleLogout()
       }
@@ -51,9 +50,9 @@ class App extends Component() {
       <div>
         <BrowserRouter>
         <Switch>
-        <Route exact path='/' component = {} /> 
-        <Route exact path='/login' component={} /> 
-        <Route exact path='/signup' component={} /> 
+        <Route exact path='/' component ={Home} /> 
+        <Route exact path='/login' component={Login} /> 
+        {/* <Route exact path='/signup' component={Signup} />  */}
         </Switch>
         </BrowserRouter>
       </div>

@@ -19,7 +19,8 @@ class Login extends Component {
 
 
     render() { 
-        const {username, email, password} = this.statereturn (
+        const {username, email, password} = this.state
+        return (
             <div>
                 <h1>Login</h1>
                 <form onSubmit={this.handleSubmit}>
