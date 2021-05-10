@@ -12,7 +12,6 @@ class SessionsController < ApplicationController
                 message: 'no such user'
             }
         end 
-
     end 
 
     def create 
@@ -28,8 +27,7 @@ class SessionsController < ApplicationController
                 status: 401,
                 errors: ['no such user, please try again']
             }
-        end
-            
+        end       
     end 
 
     def destory 
