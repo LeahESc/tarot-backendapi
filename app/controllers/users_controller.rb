@@ -32,9 +32,9 @@ class UsersController < ApplicationController
     def create 
         # byebug
         @user = User.new(user_params)
-        byebug
         if @user.save 
             login! 
+            # byebug
             render json: {
                 status: :created,
                 user: @user
