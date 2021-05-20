@@ -31,7 +31,13 @@ Movie.create([
     {name: "Eight Of Wands", img: "Eight Of Wands", description: "Things happening fast. A domino effect. Using momentum to your benefit, seeing opportunites. A row of matches burns quickly. Spreading excitement. Taking advantage of the moment. Now or never. An opportunity to bring out certain skills you have waiting in your toolbox."},
     {name: "Nine Of Wands", img: "Nine Of Wands", description: "Dust yourself off and try again. When energy flags but there is more in reserve. Almost there. Believing in yourself despite a setback. Not allowing the past to dictate how you move forward. Waiting. Replenishing energy into a project or a mission or a belief. A breakthrough. Making it happen last minute. Rediscovering your passion for something that had become stale. The candle burns down but rises again once the hand re-emerges to re-light it."},
     {name: "Ten Of Wands", img: "Ten Of Wands", description: "An excesss of energy. Creativity let out of bounds. When your dream becomes reality but ti's too much for one person. All of the cards are shown with snakes breaking through, disrupting and keeping them from their original purpose. Excitement that clouds vision. A need to rein it in a little, or to dole out some responsibility to others."},
-    {name: "Page Of Wands", img: "Page Of Wands", description: "."},
+    {name: "Page Of Wands", img: "Page Of Wands", description: "A hand holds a royal flush. Recognizing your skills and gifts, and using them wisely -- or accepting help from someone else's skills and gifts. A good thing coming into your life, good news. An aspect of your life becoming more exciting. Embodying the winning energy as part of your plan to achieve your goals. Seeing, and believing, the positive."},
+    {name: "Knight Of Wands", img: "Knight Of Wands", description: "Taking action in a daring way. Looking for excitement. Ready to take a risk. Playing with fire. Being open to miracles or serendipity. The roll of the dice and the dancing dragons show a playful energy where anything is possible."},
+    {name: "Queen Of Wands", img: "Queen Of Wands", description: "A creative, ecccentric woman. Fun, playful, warm, caring, encouraging. Her strength comes from her quickness, her embrace of the new. Giving to others, but maintains her own practices of self-care and self-exploration. Likes to laugh and enjoys herself and others. Proud, strong, and with a light inside."},
+    {name: "King Of Wands", img: "King Of Wands", description: "An artistic man. Can be unreliable or hard to pin down, but charming and exciting to be around. Not very practical or conventional, but passionate. Can get himself into trouble through inactions, or taking the wrong action. Has a good heart but not the best instincts about himself of the people around him. Mischievous and quick-witted. Always up for a good time, but can be hiding some pain inside."},
+
+
+
 
 
 
